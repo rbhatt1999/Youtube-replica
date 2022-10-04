@@ -60,6 +60,24 @@ border: 1px solid rgb(192, 192, 192);
 border-radius: 2px;
 margin-left: -1px;
 margin-right: 10px;
+position: relative;
+cursor: pointer;
+}
+.search-button div{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px;
+  opacity: 0;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  right: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.search-button:hover div{
+  opacity: 1;
 }
 .search-icon{
   margin-top: 2px;
@@ -71,6 +89,26 @@ margin-right: 10px;
   border-radius: 20px;
   border: 0;
   background-color: rgb(248, 248, 248);
+  position: relative;
+  cursor: pointer;
+}
+.voice-search-button div{
+  position: absolute;
+  width: 130px;
+  background-color: gray;
+  color: white;
+  padding: 6px;
+  opacity: 0;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  right: -80px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.voice-search-button:hover div{
+  opacity: 1;
 }
 .voice-search-icon{
   height:25px;
@@ -86,18 +124,84 @@ margin-right: 10px;
   flex-shrink: 0;
 }
 
+.upload-icon-container{
+position: relative;
+}
+
+.upload-icon-container div{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px;
+  opacity: 0;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -35px;
+  right: -10px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.upload-icon-container:hover div{
+  opacity: 1;
+} 
 .upload-icon{
   height:24px;
+  cursor: pointer;
 }
+
+.youtube-icon-container{
+  position: relative;
+  }
+  
+  .youtube-icon-container div{
+    position: absolute;
+    width: 80px;
+    background-color: gray;
+    color: white;
+    padding: 6px;
+    opacity: 0;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    right: -30px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+  }
+  
+  .youtube-icon-container:hover div{
+    opacity: 1;
+  } 
 .youtube-icon{
   height:24px;
+  cursor: pointer;
+
 }
 
 .notification-icon-container{
   position: relative;
 }
+.tooltip-notification{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px;
+  opacity: 0;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -35px;
+  right: -30px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.notification-icon-container:hover .tooltip-notification{
+  opacity: 1;
+} 
+
 .notification-icon{
   height:24px;
+  cursor: pointer;
 }
 
 .notification-count{
@@ -115,4 +219,5 @@ color: white;
   height:35px;
   width:35px;
   border-radius: 17.5px;
+  cursor: pointer;
 }
