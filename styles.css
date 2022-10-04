@@ -1,0 +1,48 @@
+body{
+  font-family: Roboto,Arial;
+}
+.search-bar{
+  margin-bottom: 20px;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 40px;
+}
+.container{
+  vertical-align: top;
+}
+.thumbnail{
+  width: 100%;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 0.16fr 1fr;
+}
+.logo{
+  vertical-align: top;
+}
+.profile-picture{
+  width: 80%;
+  border-radius: 50%;
+}
+.text-temp{
+  width: 100%;
+}
+
+.intro{
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.owner{
+font-size: 12px;
+color: rgb(96,96,96);
+}
+
+.statics{
+font-size: 12px;
+color: rgb(96,96,96);
+}
