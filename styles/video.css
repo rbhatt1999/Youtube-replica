@@ -1,9 +1,4 @@
-body{
-  font-family: Roboto,Arial;
-}
-.search-bar{
-  margin-bottom: 20px;
-}
+
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
