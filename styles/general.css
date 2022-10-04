@@ -1,4 +1,13 @@
 body{
   font-family: Roboto,Arial;
   margin: 0;
+  padding-top: 70px;
+  padding-left: 80px;
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 1000px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }

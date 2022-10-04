@@ -4,6 +4,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  z-index: 100;
 }
 
 .left-section{
@@ -85,8 +92,24 @@ margin-right: 10px;
 .youtube-icon{
   height:24px;
 }
+
+.notification-icon-container{
+  position: relative;
+}
 .notification-icon{
   height:24px;
+}
+
+.notification-count{
+position: absolute;
+top: -3px;
+right: -5px;
+width: 16px;
+font-size: 14px;
+text-align: center;
+background-color: #cc0000;
+border-radius: 8px;
+color: white;
 }
 .current-user-picture{
   height:35px;
